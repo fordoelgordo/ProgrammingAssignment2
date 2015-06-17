@@ -1,6 +1,6 @@
-## The first function creates a matrix object that has the ability to cache it's inverse
-## The second function computes the inverse of the matrix.  If the inverse has already been computed for that particular
-## matrix then cachesolve will retrive the inverse from the cache
+## Finding the inverse of a matrix can be a very time-consuming computation.  Because of this, there may be some 
+## benefits to caching the inverse of a matrix rather than allowing it to compute repeatedly.  The functions below
+## cache the inverse of a matrix x and return it.
 
 ## makeCacheMatrix creates a list containing a function to set the value of the matrix, get the value of the matrix,
 ## set the value of the inverse of the matrix and get the value of the inverse of the matrix
